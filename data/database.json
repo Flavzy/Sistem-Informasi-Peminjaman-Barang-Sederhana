@@ -1,0 +1,135 @@
+{
+  "alat": [
+    {
+      "jenis": "Elektronik",
+      "kode_alat": "ELK-001",
+      "nama": "Proyektor Epson EB-X51",
+      "stok_total": 4,
+      "stok_tersedia": 3,
+      "daya_watt": 327,
+      "merek": "Epson"
+    },
+    {
+      "jenis": "Elektronik",
+      "kode_alat": "ELK-002",
+      "nama": "Kamera DSLR Canon EOS 2000D",
+      "stok_total": 2,
+      "stok_tersedia": 2,
+      "daya_watt": 18,
+      "merek": "Canon"
+    },
+    {
+      "jenis": "Elektronik",
+      "kode_alat": "ELK-003",
+      "nama": "Speaker Portable Bluetooth",
+      "stok_total": 3,
+      "stok_tersedia": 3,
+      "daya_watt": 40,
+      "merek": "JBL"
+    },
+    {
+      "jenis": "Laboratorium",
+      "kode_alat": "LAB-001",
+      "nama": "Crimping Tool & LAN Tester Kit",
+      "stok_total": 6,
+      "stok_tersedia": 6,
+      "kategori_lab": "Jaringan Komputer",
+      "butuh_kalibrasi": false
+    },
+    {
+      "jenis": "Laboratorium",
+      "kode_alat": "LAB-002",
+      "nama": "Oscilloscope Digital Rigol",
+      "stok_total": 2,
+      "stok_tersedia": 2,
+      "kategori_lab": "Elektronika",
+      "butuh_kalibrasi": true
+    },
+    {
+      "jenis": "Laboratorium",
+      "kode_alat": "LAB-003",
+      "nama": "Arduino Uno & Sensor Starter Kit",
+      "stok_total": 5,
+      "stok_tersedia": 5,
+      "kategori_lab": "IoT & Sistem Tertanam",
+      "butuh_kalibrasi": true
+    }
+  ],
+  "pengguna": [
+    {
+      "peran": "Mahasiswa",
+      "id_pengguna": "G1F025020",
+      "nama": "Asri Ayu Julita",
+      "prodi": "Sistem Informasi",
+      "password": "user123"
+    },
+    {
+      "peran": "Mahasiswa",
+      "id_pengguna": "G1F025014",
+      "nama": "Mahasiswa Uji 2",
+      "prodi": "Sistem Informasi",
+      "password": "user123"
+    },
+    {
+      "peran": "Dosen",
+      "id_pengguna": "0012058701",
+      "nama": "Dr. Della Maulidiya, M.Kom",
+      "fakultas": "Teknik",
+      "password": "user123"
+    },
+    {
+      "peran": "Admin",
+      "id_pengguna": "ADM-001",
+      "nama": "Petugas Lab SI",
+      "unit": "Laboratorium SI",
+      "password": "admin123"
+    }
+  ],
+  "transaksi": [
+    {
+      "id_transaksi": "TRX-0001",
+      "id_pengguna": "G1F025020",
+      "nama_pengguna": "Asri Ayu Julita",
+      "peran_pengguna": "Mahasiswa",
+      "kode_alat": "ELK-001",
+      "nama_alat": "Proyektor Epson EB-X51",
+      "jumlah": 1,
+      "tanggal_pinjam": "2026-11-22",
+      "batas_kembali": "2026-11-25",
+      "status": "Dikembalikan",
+      "tanggal_kembali": "2026-11-22",
+      "hari_terlambat": 0,
+      "denda": 0
+    },
+    {
+      "id_transaksi": "TRX-0002",
+      "id_pengguna": "G1F025020",
+      "nama_pengguna": "Asri Ayu Julita",
+      "peran_pengguna": "Mahasiswa",
+      "kode_alat": "ELK-001",
+      "nama_alat": "Proyektor Epson EB-X51",
+      "jumlah": 1,
+      "tanggal_pinjam": "2026-11-22",
+      "batas_kembali": "2026-11-25",
+      "status": "Dikembalikan",
+      "tanggal_kembali": "2026-11-22",
+      "hari_terlambat": 0,
+      "denda": 0
+    },
+    {
+      "id_transaksi": "TRX-0003",
+      "id_pengguna": "G1F025020",
+      "nama_pengguna": "Asri Ayu Julita",
+      "peran_pengguna": "Mahasiswa",
+      "kode_alat": "ELK-001",
+      "nama_alat": "Proyektor Epson EB-X51",
+      "jumlah": 1,
+      "tanggal_pinjam": "2026-11-22",
+      "batas_kembali": "2026-11-25",
+      "status": "Dipinjam",
+      "tanggal_kembali": null,
+      "hari_terlambat": 0,
+      "denda": 0
+    }
+  ]
+}
